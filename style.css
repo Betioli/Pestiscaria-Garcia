@@ -17,7 +17,7 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: linear-gradient(135deg, #B40000, #8B0000);
+            background: #011F3E;
             padding: 1rem 4rem;
             display: flex;
             justify-content: space-between;
@@ -25,16 +25,17 @@
             z-index: 1000;
             transition: all 0.3s ease;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+            }
 
         nav.scrolled {
             padding: 0.5rem 4rem;
-            background: rgba(180, 0, 0, 0.98);
+            background: #011F3E;
         }
 
         .logo-nav {
             height: 60px;
             transition: all 0.3s ease;
+            border-radius: 3px;
         }
 
         nav.scrolled .logo-nav {
@@ -67,7 +68,7 @@
             background: #FEB600;
             color: #011F3E;
             padding: 0.8rem 2rem;
-            border-radius: 25px;
+            border-radius: 10px;
             text-decoration: none;
             font-weight: 700;
             transition: all 0.3s ease;
@@ -115,6 +116,7 @@
             z-index: 2;
             max-width: 1200px;
             margin: 0 auto;
+            text-align: center;
         }
 
         .badge-desktop {
@@ -133,6 +135,7 @@
             font-size: 0.95rem;
             font-weight: 600;
             margin-bottom: 1rem;
+            ;
         }
 
         .hero h1 {
@@ -149,6 +152,7 @@
             font-weight: 400;
             margin-bottom: 2rem;
             font-style: italic;
+            text-align: center;
         }
 
         /* Seções */
@@ -187,7 +191,7 @@
             background: white;
             padding: 2rem;
             border-radius: 12px;
-            border-left: 4px solid #FEB600;
+            border: 2px solid #FEB600;
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
             transition: all 0.3s ease;
         }
@@ -254,7 +258,7 @@
         }
 
         .solution-box {
-            border-left: 4px solid #FEB600;
+            border: 2px solid #FEB600;
         }
 
         .arrow {
@@ -375,7 +379,6 @@
 
         /* AIDA Container */
         .aida-container {
-            background: linear-gradient(135deg, #B40000, #8B0000);
             padding: 2.5rem;
             border-radius: 16px;
             margin: 2rem 0;
@@ -385,12 +388,12 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 1.5rem;
+
         }
 
         .aida-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(254, 182, 0, 0.3);
+            background:#b40000;
+            border: 3px solid #FEB600;
             padding: 2rem;
             text-align: center;
             border-radius: 12px;
@@ -421,11 +424,11 @@
         }
 
         .phase-card.phase1 {
-            border-left: 4px solid #B40000;
+            border: 1px solid #B40000;
         }
 
         .phase-card.phase2 {
-            border-left: 4px solid #FEB600;
+            border: 3px solid #FEB600;
         }
 
         .phase-card h3 {
