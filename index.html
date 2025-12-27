@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise Digital - Petiscaria Garcia</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="image/logo-petiscaria.jpg"/>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -124,13 +125,22 @@
         </div>
 
         <div class="warning-box">
-            <h3>💡 Por isso a estratégia foca em:</h3>
-            <ul>
-                <li>✓ Reativar (não começar do zero) — usar a base de 1.542 seguidores</li>
-                <li>✓ Qualificar (não quantidade) — focar em Jaboticabal e região</li>
-                <li>✓ Profissionalizar (não improvisar) — conteúdo de valor + ofertas claras</li>
-            </ul>
-        </div>
+    <h3>💡 Por isso a estratégia foca em:</h3>
+    <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; list-style: none; padding: 0; margin: 1rem 0;">
+        <li>
+            <strong style="color: #B40000;">✓ Reativar (não começar do zero)</strong><br>
+            <span style="font-size: 0.95rem;">Usar a base de 1.542 seguidores</span>
+        </li>
+        <li>
+            <strong style="color: #B40000;">✓ Qualificar (não quantidade)</strong><br>
+            <span style="font-size: 0.95rem;">Focar em Jaboticabal e região</span>
+        </li>
+        <li>
+            <strong style="color: #B40000;">✓ Profissionalizar (não improvisar)</strong><br>
+            <span style="font-size: 0.95rem;">Conteúdo de valor + ofertas claras</span>
+        </li>
+    </ul>
+</div>
     </section>
 
     <!-- Seção 3: Pesquisa de Mercado -->
@@ -351,22 +361,34 @@
         </div>
 
         <div style="background: linear-gradient(135deg, rgba(254, 182, 0, 0.15), rgba(254, 182, 0, 0.05)); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
-            <h3 style="color: #011F3E; margin-bottom: 1rem;">📊 Projeção de ROI (Conservadora)</h3>
+            <h3 style="color: #011F3E; margin-bottom: 1.5rem;">📊 Projeção de ROI (Conservadora)</h3>
             
-            <p><strong>Cenário CONSERVADOR (R$1.200 investidos em tráfego pago):</strong></p>
-            <ul style="margin: 1rem 0;">
-                <li>→ 70 leads brutos × 80% qualificados = 56 leads bons</li>
-                <li>→ 56 leads × 30% conversão = ~17 pedidos</li>
-                <li>→ 17 pedidos × R$35 (ticket médio) = R$595 em receita direta</li>
-                <li>→ ROI: 0,5x no primeiro mês (recuperação parcial)</li>
-            </ul>
-            <p><strong>Cenário OTIMISTA (60-90 dias com otimização):</strong></p>
-            <ul style="margin: 1rem 0;">
-                <li>→ 100+ leads/mês × 35-40% conversão = 35-40 pedidos</li>
-                <li>→ 35 pedidos × R$35 = R$1.225 em receita direta</li>
-                <li>→ ROI: 1,0-1,5x (retorno positivo)</li>
-            </ul>
-            <p style="font-style: italic; font-size: 0.95rem; margin-top: 1rem;"><em>*Projeção baseada em benchmarks de restaurantes/petiscarias similares em 2024-2025. Não é promessa, mas potencial identificado com execução consistente.</em></p>
+            <div class="roi-grid">
+                <!-- Cenário Conservador -->
+                <div class="roi-box conservador">
+                    <h4>💰 Cenário CONSERVADOR</h4>
+                    <p style="margin-bottom: 1rem; font-weight: 600;">R$1.200 investidos em tráfego pago:</p>
+                    <ul>
+                        <li>→ 70 leads brutos × 80% qualificados = <strong>56 leads bons</strong></li>
+                        <li>→ 56 leads × 30% conversão = <strong>~17 pedidos</strong></li>
+                        <li>→ 17 pedidos × R$35 (ticket médio) = <strong>R$595 em receita direta</strong></li>
+                        <li style="margin-top: 0.8rem; color: #B40000; font-weight: 700;">→ ROI: 0,5x no primeiro mês (recuperação parcial)</li>
+                    </ul>
+                </div>
+
+                <!-- Cenário Otimista -->
+                <div class="roi-box otimista">
+                    <h4>🚀 Cenário OTIMISTA</h4>
+                    <p style="margin-bottom: 1rem; font-weight: 600;">60-90 dias com otimização:</p>
+                    <ul>
+                        <li>→ 100+ leads/mês × 35-40% conversão = <strong>35-40 pedidos</strong></li>
+                        <li>→ 35 pedidos × R$35 = <strong>R$1.225 em receita direta</strong></li>
+                        <li style="margin-top: 0.8rem; color: #27ae60; font-weight: 700;">→ ROI: 1,0-1,5x (retorno positivo)</li>
+                    </ul>
+                </div>
+            </div>
+
+                <p style="font-style: italic; font-size: 0.95rem; margin-top: 1.5rem; text-align: center;"><em>*Projeção baseada em benchmarks de restaurantes/petiscarias similares em 2024-2025. Não é promessa, mas potencial identificado com execução consistente.</em></p>
         </div>
 
         <h3 style="color: #011F3E; font-size: 1.8rem; margin: 2.5rem 0 1.5rem 0;">Expectativa Realista por Fase</h3>

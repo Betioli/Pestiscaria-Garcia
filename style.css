@@ -301,6 +301,7 @@
             border-radius: 8px;
             margin: 2rem 0;
         }
+        
 
         .warning-box h3 {
             color: #011F3E;
@@ -473,6 +474,52 @@
             color: #011F3E;
             font-weight: 700;
             margin-bottom: 0.8rem;
+        }
+        /* ROI Grid - Lado a Lado */
+        .roi-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .roi-box {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .roi-box.conservador {
+            border-left: 4px solid #B40000;
+        }
+
+        .roi-box.otimista {
+            border-left: 4px solid #27ae60;
+        }
+
+        .roi-box h4 {
+            color: #011F3E;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .roi-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .roi-box li {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .roi-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         /* Expectativa Grid */
